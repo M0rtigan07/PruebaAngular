@@ -28,6 +28,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\estrella\estrellaLlena.ts" />
+    <None Remove="ClientApp\src\app\estrella\estrellas.component.ts" />
+    <None Remove="ClientApp\src\app\estrella\rating.ts" />
     <None Remove="ClientApp\src\app\producto.service.ts" />
   </ItemGroup>
 
