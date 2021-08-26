@@ -4,11 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
+import { ProductoComponent } from './Productos/producto.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent,ProductoComponent
 
   ],
   imports: [
